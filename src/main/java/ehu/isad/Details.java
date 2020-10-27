@@ -32,4 +32,8 @@ public class Details {
     public String getPublishers() {
         return publishers[0];
     }
+
+    public void setPublishers(String[] publishers) {
+        this.publishers = publishers;
+    }
 }
